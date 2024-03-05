@@ -1,0 +1,20 @@
+{
+    "ignorePaths": [
+      "**/*.g.dart",
+      "**/**.swagger.dart",
+      "**/**.chopper.dart",
+      "**/**.mocks.dart",
+      "**/gen/**"
+    ],
+    "dictionaryDefinitions": [
+      {
+        "name": "project words",
+        "path": "./.cspell/project-words.txt",
+        "description": "project words"
+      }
+    ],
+    "dictionaries": [
+      "project words",
+    ]
+  }
+  

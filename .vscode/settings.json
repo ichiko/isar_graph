@@ -1,0 +1,45 @@
+{
+    "files.exclude": {
+      "amplify/.config": true,
+      "amplify/**/*-parameters.json": true,
+      "amplify/**/amplify.state": true,
+      "amplify/**/transform.conf.json": true,
+      "amplify/#current-cloud-backend": true,
+      "amplify/backend/amplify-meta.json": true,
+      "amplify/backend/awscloudformation": true
+    },
+    "[dart]": {
+      "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit",
+        "source.organizeImports": "explicit",
+        "source.addMissingImports": "explicit"
+      },
+      "editor.defaultFormatter": "Dart-Code.dart-code",
+      "editor.formatOnPaste": true,
+      "editor.formatOnSave": true,
+      "editor.tabSize": 2
+    },
+    "[json]": {
+      "editor.formatOnPaste": true,
+      "editor.formatOnSave": true,
+      "editor.tabSize": 2,
+      "files.insertFinalNewline": true
+    },
+    "[markdown]": {
+      "editor.formatOnPaste": true,
+      "editor.formatOnSave": true,
+      "editor.tabSize": 2
+    },
+    "build-runner.flutterPath": ".fvm/flutter_sdk/bin/flutter",
+    "cSpell.ignorePaths": [
+      ".fvm/**",
+      ".git/objects",
+      ".gitignore",
+      ".vscode-insiders",
+      ".vscode",
+      "**/**.g.dart",
+      "vscode-extension"
+    ],
+    "dart.flutterSdkPath": ".fvm/versions/3.16.0",
+    "dart.sdkPath": ".fvm/flutter_sdk"
+  }
